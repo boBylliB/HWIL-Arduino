@@ -1,0 +1,8 @@
+"ES+"
+"R" for read or "W" for write
+first uint8 for address (address is 5 and 7 currently, but may change)
+second uint8 for address (2 byte address)
+uint8 for request size (always 0x01)
+uint8 for return size (lookup size from cmd_lookup_arr in acs-command-handler.h)
+uint8 for telem id (lookup id from cmd_lookup_arr in acs-command-handler.h)
+temporary "1234567890"
